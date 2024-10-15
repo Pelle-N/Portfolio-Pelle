@@ -15,7 +15,7 @@
     </div>
 
     <ContentSlot >
-      <h1 class="text-4xl font-bold">{{ post.title }}</h1>
+      <h1 class="suse-semi-bold MainTitle">{{ post.title }}</h1>
     </ContentSlot>  
 
     <ContentDoc v-slot="{ doc }">

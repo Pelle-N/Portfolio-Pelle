@@ -1,19 +1,19 @@
 /* Body element */
 body {
-    background-color: #fff;
-    color: rgba(0,0,0,0.8);
+    background-color: #fafaef;
+    color: #4f3130;
     }
     .light-mode body {
-    background-color: #fbf8f0;
-    color: #2c1f02;
+    background-color: #fafaef;
+    color: #4f3130;
     }
     .dark-mode body {
-    background-color: #3f3c1b;
-    color: #ebf4f1;
+    background-color: #4f3130;
+    color: #fafaef;
     }
     .gray-mode body {
-    background-color: #bcb77d;
-    color: #433422;
+    background-color: #9fa164;
+    color: #4f3130;
     }
     
     /* Active link */
