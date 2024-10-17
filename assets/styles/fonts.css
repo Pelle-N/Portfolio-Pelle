@@ -101,6 +101,14 @@
     font-style: normal;
   }
 
+  .suse-medium {
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+
   .sorts-mill-goudy-regular {
     font-family: "Sorts Mill Goudy", serif;
     font-weight: 400;
@@ -144,6 +152,18 @@
     font-weight: 1000;
     font-style: normal;
     color: #dc392e;
+  }
+
+  .smallTitle {
+    font-size: large;
+    font-style: normal;
+    color: #dc392e;
+  }
+
+  .smalldetail {
+    font-size: small;
+    font-style: normal;
+    color: #9fa164;
   }
   
   p {

@@ -17,10 +17,10 @@
   size="75%"
 >
   <!-- Drawer content goes here -->
-    <div class="">
+    <div class="suse-medium">
       <Titleblock />
       <Navigations />
-      <UtilNav />
+      <UtilNav /> 
     </div>
     <div class="mt-auto">
       <Footer />
@@ -38,4 +38,11 @@ const direction = ref<DrawerProps['direction']>('rtl')
 <style>
 .el-drawer  { background-color: #fafaef;}
 .dark-mode .el-drawer { background-color: #4f3130; }
+.p {
+  font-family: "Sorts Mill Goudy", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: large;
+    font-style: normal;
+}
 </style>

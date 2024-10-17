@@ -10,7 +10,7 @@
             <path fill="currentColor" d="m6.921 12.5l5.793 5.792L12 19l-7-7l7-7l.714.708L6.92 11.5H19v1z"></path>
           </svg>
         </span>  
-        <span class="text-xs">Back to pages overview</span>
+        <span class="suse-medium smalldetail">Back to overview</span>
       </NuxtLink>
     </div>
 
@@ -29,7 +29,7 @@
     </div>
 
 
-    <div class="text-xs leading-3">
+    <div class="suse-semi-bold MainTitle">
       <hr> 
       <p v-if="post.date" class="text-xs opacity-50 hover:opacity-100">last updated on: {{ formatDate(post.date) }}
             <span v-if="post.author" class="text-xs">authored by: {{ post.author }} </span>
